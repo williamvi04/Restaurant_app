@@ -1,0 +1,19 @@
+.card-article ul li{
+    list-style: none;
+}
+
+.card-article .imgarticle{
+    margin: 0 auto;
+    width: 80%;
+}
+.card-article .imgarticle img{
+    width: 100%;
+}
+
+/*responsive*/
+
+@media (min-width:240px) and (max-width:880px){
+    .card-article .imgarticle{
+        width: 100%;
+    }
+}

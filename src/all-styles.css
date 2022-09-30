@@ -1,0 +1,41 @@
+/*import google font*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("https://www.pizzahut.com.sv/static/media/menu/webp/background-mx.webp" );
+  color:#1b1b1b;
+  line-height: 2rem;
+}
+
+h1,h2{
+  padding-bottom: 2rem;
+}
+
+
+/*clase general para contenedores*/
+
+.flex-container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.sections-container{
+  padding: 4rem 0;
+}
+
+
+/*clase general para contenedores - responsive*/
+
+@media (min-width: 240px) and (max-width: 880px) {
+  .flex-container {
+    max-width: 90%;
+  }
+}
